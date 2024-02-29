@@ -1,0 +1,104 @@
+
+
+*{
+  /* overflow: unset !important; */
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+  width: 100vw;
+
+}
+@font-face {
+  font-family: BomberEscort;
+  src: url("./assets/BomberEscortSemiItalic-VGzp6.otf") format("opentype");
+}
+
+@font-face {
+  font-family: AstroSpace;
+  src: url("./assets/AstroSpace-0Wl3o.otf") format("opentype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bomber-escort {
+  font-family: "BomberEscort";
+  letter-spacing: 3px;
+}
+
+.astro-space {
+  font-family: "AstroSpace";
+  letter-spacing: 3px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.text-glow {
+  text-shadow: 0 0 25px rgba(17,104,255,0.6);
+}
+
+.hero-title h1 {
+  font-size: 10vw;
+  animation: flicker 1.5s infinite alternate;
+}
+
+.title {
+  @apply mb-10 astro-space text-xl sm:text-3xl md:text-4xl text-glow text-center after:block after:mt-3 after:border-b-2 after:border-slate-700 after:w-[18rem] sm:after:w-[24rem] md:after:w-[30rem];
+}
+
+.left-swipe {
+  animation: swipe 1s infinite alternate;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 0px rgba(255, 255, 255, 0.608),
+      0 0 3px rgba(255, 255, 255, 0.647), 0 0 4px rgba(255, 255, 255, 0.513),
+      0 0 5px #b01af1b0, 0 0 20px #b01af1b0, 0 0 30px #b01af1b0,
+      0 0 40px #b01af1b0, 0 0 50px #b01af1b0;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}

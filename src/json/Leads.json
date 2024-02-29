@@ -1,0 +1,97 @@
+[
+    {
+        "name": "Pushkaraj Chaudhary",
+        "position": "GENERAL SECRETARY",
+        "image": "pushkaraj"
+    },
+    {
+        "name": "Roshani Nalawade",
+        "position": "CO - GENERAL SECRETARY",
+        "image": "roshani"
+    },
+    {
+        "name": "Aditya Parab",
+        "position": "CONVENER",
+        "image": "aditya"
+    },
+    {
+        "name": "Aarti Pawar",
+        "position": "CONVENER",
+        "image": "aarti"
+    },
+    {
+        "name": "Aniket Charhate",
+        "position": "TREASURER",
+        "image": "aniket"
+    },
+    {
+        "name": "Rakesh Katarnaware",
+        "position": "PRO",
+        "image": "rakesh"
+    },
+    {
+        "name": "Faizan Potrick",
+        "position": "TECHNICAL HEAD",
+        "image": "faizan"
+    },
+    {
+        "name": "Ayush Shukla",
+        "position": "TECHNICAL HEAD",
+        "image": "ayush"
+    },
+    {
+        "name": "Karandeep Singh",
+        "position": "DEVELOPMENT HEAD",
+        "image": "karandeep"
+    },
+    {
+        "name": "Jayneel Kanungo",
+        "position": "DEVELOPMENT HEAD",
+        "image": "jayneel"
+    },
+    {
+        "name": "Kanak Kale",
+        "position": "PLANNING HEAD",
+        "image": "kanak"
+    },
+    {
+        "name": "Sarthak Gangan",
+        "position": "PLANNING HEAD",
+        "image": "sarthak"
+    },
+    {
+        "name": "Aditya Shingote",
+        "position": "SPONSORSHIP HEAD",
+        "image": "aditya3"
+    },
+    {
+        "name": "Aditya Sangale",
+        "position": "GRAPHICS HEAD",
+        "image": "aditya2"
+    },
+    {
+        "name": "Pranav Nimbalkar",
+        "position": "MEDIA - CREATIVE HEAD",
+        "image": "pranav"
+    },
+    {
+        "name": "Amogh Kharche",
+        "position": "MEDIA - CREATIVE HEAD",
+        "image": "amogh"
+    },
+    {
+        "name": "Viraj Sawant",
+        "position": "PUBLICITY HEAD",
+        "image": "viraj"
+    },
+    {
+        "name": "Shubhada Tawade ",
+        "position": "PUBLICITY HEAD",
+        "image": "shubhada"
+    }, {
+        "name": "Akshay Bajbalkar",
+        "position": "RESOURCE HEAD",
+        "image": "akashay"
+    }
+  
+]
