@@ -85,9 +85,9 @@ function App() {
           <span>{counts.minute}M</span>
           <span>:</span>
           <span>{counts.second}S</span> */}
-          <span style={{ textAlign: "center" }}>
+          {/* <span style={{ textAlign: "center" }}>
             "I solemnly swear I am up to no good"
-          </span>
+          </span> */}
         </div>
       </div>
       <Suspense fallback={<div>Loading...</div>}>
