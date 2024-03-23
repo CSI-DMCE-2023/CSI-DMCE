@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [hamburger, setHamburger] = useState(false);
-  
+
   return (
     <nav
       className={`navbar absolute w-full z-50 flex flex-col lg:flex-row justify-around items-center astro-space ${
@@ -50,11 +50,11 @@ const Navbar = () => {
           <button className="text-white tracking-widest">Leads</button>
         </Link>
         <a
-          href="https://codeathon-website.vercel.app/"
+          href="https://logithon.ai/"
           className="text-white tracking-widest"
           target="_blank"
         >
-          Code-A-Thon
+          LogiTHON
         </a>
 
         {/* <Link
